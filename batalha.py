@@ -82,7 +82,7 @@ class telas():
             button.clicked.connect(self.selecionarBotao)
 
         app.exec()
-        
+    
     # Métodos de Alterar Tela
     def mudar_tela(self):
         self.inicio.close()
